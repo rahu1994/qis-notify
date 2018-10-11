@@ -149,10 +149,10 @@ head_css += u"""</table></body></html>"""
 # send mail
 if diffs:
     import smtplib
-	email_login = config['EMAIL']['email-address']
-	email_pw = config['EMAIL']['password']
-	email_smtp = config['EMAIL']['smtp']
-	email_smtp_port = config['EMAIL']['port']
+    email_login = config['EMAIL']['email-address']
+    email_pw = config['EMAIL']['password']
+    email_smtp = config['EMAIL']['smtp']
+    email_smtp_port = config['EMAIL']['port']
     server = smtplib.SMTP(email_smtp, email_smtp_port)
     server.starttls()
     server.login(email_login, email_pw)
