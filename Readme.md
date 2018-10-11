@@ -4,5 +4,5 @@ the new grades. Hence a new request does not fetch the already fetched grades an
 
 IMPORTANT:
 This only works within the local network of the University or via VPN.
-I set up a respberry pi, that automatically connects to this VPN and then added a cronjob which periodically calls the qis-notify.py.
+I set up a raspberry pi, that automatically connects to this VPN and then added a cronjob which periodically calls the qis-notify.py.
 That way I am always notified, if there are new grades uploaded to my account.
