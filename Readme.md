@@ -1,6 +1,6 @@
 This python script automatically calls the qis-portal of University of Kaiserslautern. With the information stored in "cred.conf"
-the given user is logged in and the grade-table (Master or Bachelor) is fetched. If there are some changes to a locally stored file "last_state.hist", the new grades are packed into a mail and sent to the e-mail address provided in cred.conf. The "last_state.hist" is the updated with 
-the new grades, that a new request does not fetch the already fetched grades anymore.
+the given user is logged in and the grade-table (Master or Bachelor) is fetched. If there are some changes to a locally stored file "last_state.hist", the new grades are packed into a mail and sent to the e-mail address provided in cred.conf. The "last_state.hist" is then updated with 
+the new grades. Hence a new request does not fetch the already fetched grades anymore.
 
 IMPORTANT:
 This only works within the local network of the University or via VPN.
